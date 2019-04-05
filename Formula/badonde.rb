@@ -1,7 +1,7 @@
 class Badonde < Formula
   desc "Painless PR-ing"
   homepage "https://github.com/DavdRoman/Badonde"
-  url "https://github.com/DavdRoman/Badonde.git", :tag => "1.6.0"
+  url "https://github.com/DavdRoman/Badonde.git", :tag => "1.6.1"
   head "https://github.com/DavdRoman/Badonde.git"
 
   depends_on :xcode => ["10.1", :build]
