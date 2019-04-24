@@ -5,7 +5,7 @@ class Badonde < Formula
     :tag => "1.9.0", :revision => "12dd888d76b2bdd700918261b9b5b5de57f971ca"
   head "https://github.com/DavdRoman/Badonde.git"
 
-  depends_on :xcode => ["10.1", :build]
+  depends_on :xcode => ["10.2", :build]
 
   def install
     system "make", "install", "prefix=#{prefix}"
