@@ -2,7 +2,7 @@ class Badonde < Formula
   desc "Painless PR-ing"
   homepage "https://github.com/DavdRoman/Badonde"
   url "https://github.com/DavdRoman/Badonde.git",
-    :tag => "1.11.0", :revision => "f90dca126fea94fd6ae77abaac058c9fca7883ce"
+    :tag => "1.12.0", :revision => "0d442811ec9c31851794afa66f9649f092290d0a"
   head "https://github.com/DavdRoman/Badonde.git"
 
   depends_on :xcode => ["10.2", :build]
