@@ -9,6 +9,6 @@ class Badonde < Formula
   depends_on :xcode => ["10", :build]
 
   def install
-    system "make", "install", "prefix=#{prefix}"
+    system "make", "install", "PREFIX=#{prefix}"
   end
 end
