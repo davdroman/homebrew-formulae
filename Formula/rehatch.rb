@@ -9,7 +9,7 @@ class Rehatch < Formula
   depends_on :xcode => ["10", :build]
 
   def install
-    libexec.install Dir["*"]
+    libexec.install Dir["rehatch"]
     bin.install_symlink "#{libexec}/rehatch" => "rehatch"
   end
 end
