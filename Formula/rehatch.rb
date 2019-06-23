@@ -7,8 +7,4 @@ class Rehatch < Formula
   head "https://github.com/davdroman/Rehatch.git"
 
   depends_on :xcode => ["10", :build]
-
-  def install
-    system "install", "rehatch", "#{prefix}/bin"
-  end
 end
