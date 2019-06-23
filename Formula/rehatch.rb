@@ -10,5 +10,6 @@ class Rehatch < Formula
 
   def install
     libexec.install "rehatch"
+    bin.install_symlink "#{libexec}/rehatch" => "rehatch"
   end
 end
