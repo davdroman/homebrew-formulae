@@ -9,6 +9,6 @@ class Rehatch < Formula
   depends_on :xcode => ["10", :build]
 
   def install
-    system "install", "rehatch", "/usr/local/bin"
+    system "install", "rehatch", "#{prefix}/bin"
   end
 end
