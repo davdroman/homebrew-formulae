@@ -4,7 +4,7 @@ cask "kdx" do
 
   url "https://kdx.app/downloads/kdx-v#{version}-darwin-x64.dmg"
   name "KDX"
-  desc "Desktop process manager for Kaspa node"
+  desc "Kaspa Desktop Wallet"
   homepage "https://kdx.app/"
 
   livecheck do
