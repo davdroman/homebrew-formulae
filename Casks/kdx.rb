@@ -1,6 +1,6 @@
 cask "kdx" do
-  version "2.11.1"
-  sha256 "f96743864753cfadd0b05c4948793e29db5463d47eb62bdf2ed0ff980f75093b"
+  version "2.11.2"
+  sha256 "5d48d3af08e9002c24a752f1ceb78857cf2a811351534290c1e2e7b41cccc8a4"
 
   url "https://kdx.app/downloads/kdx-v#{version}-darwin-x64.dmg"
   name "KDX"
